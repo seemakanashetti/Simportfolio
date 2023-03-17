@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Aboreto' rel='stylesheet');
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap'); 
+
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+.sidebar{
+    background-color:#babdbd;
+    width: 250px;
+    font-family: 'Aboreto';font-size: 15px;
+    height: 100vh;
+   }
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+        list-style: none;
+        font-size: 18px;
+        padding: 15px 0;     
+} 
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(0, 42, 255);
+}
+.main{
+    /* background-color: rgb(129, 118, 127); */
+    width: 90vw;
+    padding: 35px;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: antiquewhite; */
+    height: 80%;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height:60%;
+    width: 95%;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 30px;
+}
+.name{
+    font-size:  30px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif; 
+
+}
+.about{
+    font-size:medium ;
+    font-style: inherit;
+}
+/* .moreabout{
+
+} */
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 3px 7px;
+    border-radius: 11px;
+    color : white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 5 px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color : white;
+    background-color: rgb(167, 204, 231);  
+}
+.contactform{
+    /* padding-inline-start: 215px; */
+     padding :100px 0px; 
+    padding-top: 50px; 
+}
+.contactform h1{
+    /* padding-inline-start: 215px; */
+    padding:20px 10px;
+    font-family: 'Fira Sans',sans-serif;
+    font-weight: bold;
+    /* text-align-last: right; */
+    }
+.contactform form div{
+ padding: 15px 10px; 
+ text-align: center;
+}
+
+
+
+    
+    
